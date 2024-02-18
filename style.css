@@ -157,7 +157,7 @@
     .navbar{
         background-color: #1c1c50;
         font-size: 16px;
-        font-family: "Roboto Slab", serif;
+        font-family: "Roboto Slab", serif;          /* font */
     }
     .navbar .nav-link{
         color: white;
@@ -181,4 +181,88 @@
         background-color: #1c1c50;
     }
     /* //navbar */
+    /* home content */
+    .home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        z-index: 0;
+        font-family: "Roboto Slab", serif;
+    }
+    .home .img{
+        flex: 1 1 400px;
+    }
+    .home .img img{
+        width: 100%;
+    }
+    .home .content{
+        flex: 1 1 400px;
+        margin-top: 30px;
+    }
+    .content h3{
+        margin-left: 70px;
+        font-size: 50px;
+        text-shadow: 1px 1px 1px black;
+        color: #1c1c50;
+        font-weight: bold;
+    }
+    .content h3 span{
+        font-size: 40;
+    }
+    .content p{
+        margin-left: 70px;
+        color: #1c1c50;
+    }
+    .content #shopnow{
+        margin-left: 70px;
+        width: 200px;
+        height: 38px;
+        border: 2px solid #1c1c50;
+        font-weight: bold;
+        transform: 0.5s ease;
+        cursor: pointer;
+    }
+    .content #shopnow:hover{
+        background-color: #1c1c50;
+        color: white;
+    }
+    @media screen and (max-width: 800px) {
+        .content h3{
+            margin-left: 50px;
+            font-size: 40px;
+        }
+        .content p{
+            margin-left: 50px;
+        }
+        .content #shopnow{
+            margin-left: 50px;
+        }
+    }
+    @media screen and (max-width: 570px) {
+        .content h3{
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        .content p{
+            margin-left: 20px;
+        }
+        .content #shopnow{
+            margin-left: 20px;
+        }
+    }
+    @media screen and (max-width: 799px) {
+       .home-section{
+            height: 150vh;
+       }
+    }
+    @media screen and (max-width: 550px) {
+       .home-section{
+            height: 100vh;
+       }
+    }
+
+    /* //home content */
+
     /* //home section */
