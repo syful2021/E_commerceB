@@ -189,7 +189,7 @@
         flex-wrap: wrap;
         position: relative;
         z-index: 0;
-        font-family: "Roboto Slab", serif;
+        font-family: "Roboto Slab", serif;      /* fonts*/
     }
     .home .img{
         flex: 1 1 400px;
@@ -262,7 +262,35 @@
             height: 100vh;
        }
     }
-
     /* //home content */
-
     /* //home section */
+
+/* top - cards */
+#top-cards{
+    margin-top: 30px;
+    font-family: "Roboto Slab", serif;      /* fonts */
+}
+#top-cards .card img{
+    height: 60vh;
+}
+#top-cards h5{
+    color: #1c1c50;
+    font-weight: bold;
+}
+#top-cards button{
+    width: 150px;
+    height: 33px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background: transparent;
+    color: #1c1c50;
+    border: 2px solid #1c1c50;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#top-cards button:hover{
+    background-color: #1c1c50;
+    color: white;
+}
+
+/* //top - cards */
