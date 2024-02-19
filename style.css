@@ -332,6 +332,99 @@
 
 /* products cards */
 
-
-
+#product-cards{
+    font-family: "Roboto Slab", serif;      /* fonts */
+    margin-top: 100px;
+}
+#product-cards .card{
+    box-shadow: rgba(100, 1000, 111, 0.2) 0px 7px 29px 0px;
+}
+#product-cards h1{
+    margin-top: 30px;
+    color: #1c1c50;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
+}
+#product-cards h3{
+    letter-spacing: 3px;
+    color: #1c1c50;
+    text-shadow: 0px 1px 1px black;
+    font-weight: bold;
+}
+#product-cards h5 span{
+    float: right;
+    color: #1c1c50;
+    cursor: pointer;
+}
+.checked{
+    color: rgb(255, 187, 0);
+}
+#viewmorebtn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 30px;
+    width: 200px;
+    height: 32px;
+    color: #1c1c50;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #1c1c50;
+    transition: 0.5s ease;
+}
+#viewmorebtn:hover{
+    background: #1c1c50;
+    color: white;
+}
 /* /products cards */
+
+/* offer */
+#offer{
+    margin-top: 50px;
+}
+#offer i{
+    font-size: 60px;
+    color: #1c1c50;
+}
+/* /offer */
+
+/* footer content */
+#footer{
+    padding: 0 0 30px 0;
+    color: #d0d0d0;
+    font-size: 14px;
+    background: #1c1c50;
+    font-family: "Roboto Slab", serif;      /* fonts */
+}
+#footer .footer-top{
+    padding: 60px 0 30px;
+    background: #1c1c50;
+    color: white;
+}
+#footer .footer-top .footer-contact h3{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+#footer .footer-top .footer-contact h4{
+    font-size: 22px;
+    margin: 0 0 300px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .footer-top .footer-contact p{
+    font-size: 14px;
+    margin: 0;
+    color: white;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .footer-top h4{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+/* /footer content */
