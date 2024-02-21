@@ -537,6 +537,20 @@ html{
     margin-top: 32px;
 }
 #side2 input{
+    padding-left: 5px;
+}
+#signup{
+    margin-top: 10px;
+}
+#signup button{
+    width: 200px;
+    height: 32px;
+    background-color: #1c1c50;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+#side2 input{
     width: 500px;
     margin-top: 20px;
     height: 36px;
@@ -597,6 +611,7 @@ html{
 #bannerbtn2 button{
     width: 150px;
     height: 38px;
+    letter-spacing: 3px;
     background: transparent;
     color: white;
     border: 2px solid white;
